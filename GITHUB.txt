@@ -1,0 +1,16 @@
+GITHUB
+
+1 - Tạo tài khoản GitHub
+2 - Cài đặt git cli từ địa chỉ https://git-scm.com/downloads
+3 - Tạo PAT (personal access token) ở https://github.com/settings/tokens
+4 - Tạo dự án ở trên máy cá nhân
+
+5 - Đẩy dự án từ máy lên GitHub
+   1. cd vào thư mục code
+   2. Khởi tạo git: git init
+   3. Thêm đường dẫn GitHub: git remote add origin <địa chỉ GitHub repository>
+   4. Thêm các file vào mục upload: git add .
+   5. Tạo lệnh upload: git commit -m "Tên của lệnh upload - đặt tên bất kỳ"
+   6. Upload git:  git push -u origin main (nhập PAT lấy từ bước 3 ở trên)
+
+6 - Lấy code mới nhất từ GitHub về máy cá nhân: git fetch , sau đó là git pull

@@ -1,0 +1,12 @@
+1 - Liệt kê file/folder: ls  ( -al)
+2 - Di chuyển vào thư mục: cd  (cd C:/)
+2.1- Di chuyển ra thư mục cha của thư mục hiện tại: cd ..
+3 - Hiển thị đường dẫn của thư mục hiện tại: pwd
+4 - Tạo 1 file trong thư mục: touch <tên file>
+5 - Xóa file trong thư mục: rm <tên file> ( -rf để xóa vĩnh viễn)
+6 - Đọc nội dung từ 1 file: cat <tên file>
+7 - Đổi tên file: mv <tên file cũ> <tên file mới>
+8 - Thêm nội vào cuối file: echo "nội dung cần them" >> <tên file>
+9 - Thay thế nội dung vào trong file: echo "nội dung cần thay" > <tên file>
+10 - Tìm kiếm nội dung trong file: cat <tên file> | grep "nội dung cần tìm kiếmgit"
+11 - Tạo thư mục: mkdir <tên thư mục>
